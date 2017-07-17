@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/news_bg">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:maxLines="2"
+        tools:text="@string/placeholder_list_title"/>
+
+    <TextView
+        android:id="@+id/author_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:maxLines="2"
+        android:padding="8dp"
+        tools:text="Here comes the author"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/author_text"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/trailText_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author_text"
+        android:fontFamily="serif"
+        android:maxLines="5"
+        android:padding="8dp"
+        tools:text="Here comes the short\ndescription\nin\nmax\n5 lines"/>
+
+    <TextView
+        android:id="@+id/section_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trailText_text"
+        android:maxLines="1"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true"
+        tools:text="section: "/>
+
+    <TextView
+        android:id="@+id/word_count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/trailText_text"
+        android:fontFamily="serif"
+        tools:text="830 words"/>
+
+    <TextView
+        android:id="@+id/publish_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:maxLines="1"
+        android:layout_below="@id/trailText_text"
+        android:layout_alignParentRight="true"
+        tools:text="11/12/2017"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">News App 4 Udacity</string>
+    <string name="label_settings_avtivity">Search Settings</string>
+    <string name="label_word_count">Words:</string>
+    <string name="placeholder_list_title">Here comes the title!</string>
+    <string name="search_text_hint">Enter your search here!</string>
+    <string name="empty_state_text">No results found!</string>
+    <!--STRINGS FOR THE SETTINGS-->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Query Settings</string>
+    <string name="settings_order_by_default">relevance</string>
+    <string name="settings_order_by_key">order_by</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_max_results_default">10</string>
+    <string name="settings_max_results_key">max_results</string>
+    <string name="settings_max_results_label">Max Results</string>
+    <string name="settings_section_default">all</string>
+    <string name="settings_section_key">section</string>
+    <string name="settings_section_label">Sections</string>
+    <!--STRINGS FOR THE ERRORS-->
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_not_available">is not available.</string>
+    <string name="error_not_found">Not found!</string>
+</resources>
